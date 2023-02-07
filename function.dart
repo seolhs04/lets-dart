@@ -8,6 +8,7 @@ void sayHello2(String name) => 'Hi $name';
 
 // named parameters
 // args를 순서에 맞지 않아도 사용할 수 있게 해줌
+// 기본 파라미터들은 모든 값이 required이지만 named 파라미터는 required를 지정하거나 default를 정의해야함.
 String introduce({
   required String name,
   required int age,
